@@ -50,7 +50,7 @@
                         </td>
                         <td class="auto-style3">
                             <asp:TextBox ID="tb_emailAddress" runat="server"></asp:TextBox>
-                            <asp:RequiredFieldValidator id="RequiredFieldValidator_emailAddress" runat="server" ControlToValidate="tb_emailAddress" ErrorMessage="Field Empty" Forecolor="Red" SetFocusOnError="True" />
+                            <asp:RequiredFieldValidator id="RequiredFieldValidator_emailAddress" runat="server" ControlToValidate="tb_emailAddress" ErrorMessage="Field Empty." Forecolor="Red" SetFocusOnError="True" />
                         </td>
                     </tr>
                     <tr>
